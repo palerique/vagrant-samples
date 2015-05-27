@@ -7,8 +7,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box_url = "https://github.com/mitchellh/vagrant-aws/raw/master/dummy.box"
 
   config.vm.provider :aws do |aws, override|
-    aws.access_key_id = "AKIAJ633OQECHEZFP3RA"
-    aws.secret_access_key = "lBvh5cAYPH6EojdeFeAvWbyptsT0HWhYsiw/s43/"
+    aws.access_key_id = "XXXXXXXXX"
+    aws.secret_access_key = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
     aws.keypair_name = "devops"
     aws.ami = "ami-d05e75b8"
