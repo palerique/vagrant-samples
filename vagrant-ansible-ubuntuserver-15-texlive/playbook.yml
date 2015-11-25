@@ -1,0 +1,6 @@
+---
+- hosts: all
+  sudo: True
+  tasks:
+  - name: ensure texlive-full is at the latest version
+    apt: pkg=texlive-full state=latest
